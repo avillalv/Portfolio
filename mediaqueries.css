@@ -48,9 +48,13 @@
         margin-top: 0;
     }
 
-
 }
-
+@media screen and (max-width: 1200px) and (min-width: 600px) {
+    .about-pic {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+}
 
 @media screen and (max-width: 765px) {
     #about {
