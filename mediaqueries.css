@@ -1,3 +1,20 @@
+@media screen and (max-width: 1500px) {
+    #profile {
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+
+    .about-containers {
+        flex-wrap: wrap;
+    }
+
+    .project-icon {
+        font-size: 17rem;
+    }
+
+}
+
+
 @media screen and (max-width: 1400px) {
     #profile {
         height: 83vh;
@@ -7,6 +24,11 @@
     .about-containers {
         flex-wrap: wrap;
     }
+
+    .project-icon {
+        font-size: 14rem;
+    }
+
 }
 
 
@@ -16,6 +38,10 @@
     }
     #hamburger-nav {
         display: flex;
+    }
+
+    .project-icon {
+        font-size: 10rem;
     }
 
     #experience, .experience-details-container {
@@ -138,6 +164,10 @@
         gap: 1rem;
     }
 
+    .project-icon {
+        font-size: 6rem;
+    }
+
 }
 
 
@@ -150,5 +180,9 @@
 @media screen and (max-width: 400px) {
     #about {
         padding-top: 300px;
+    }
+
+    .project-icon {
+        font-size: 4rem;
     }
 }

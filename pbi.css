@@ -1,27 +1,28 @@
 /* Power BI Report Section */
 #pbi-report {
     text-align: center;
-    padding: 4rem 2rem;
+    padding: 2rem;
     color: #d4d4d4; /* Light grey text */
     background-color: #1e1e1e; /* Dark grey background */
 }
 
 .report-container {
-    margin: 2rem auto;
+    margin: 2rem 0;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .report-img {
-    max-width: 90%;
-    border-radius: 1rem;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
     border: 1px solid #555555; /* Subtle border */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 .btn-container {
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 .btn {
@@ -38,4 +39,45 @@
 .btn:hover {
     background-color: #555555; /* Lighter grey on hover */
     color: white; /* White text on hover */
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 1200px) {
+    .title {
+        font-size: 2.5rem;
+    }
+
+    .section__text__p1 {
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .title {
+        font-size: 2rem;
+    }
+
+    .section__text__p1 {
+        font-size: 1rem;
+    }
+
+    .report-container {
+        margin: 1rem 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .title {
+        font-size: 1.75rem;
+    }
+
+    .section__text__p1 {
+        font-size: 0.9rem;
+    }
+
+    .btn {
+        font-size: 0.9rem;
+        padding: 0.75rem;
+        width: 100%;
+    }
 }
