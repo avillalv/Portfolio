@@ -375,9 +375,11 @@ section {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    max-width: 1200px; /* Limit the container width */
+    margin: 0 auto; /* Center the container */
+    padding: 1rem; /* Add padding for spacing */
     
 }
-
 .article-container {
     display: flex;
     text-align: initial;
@@ -389,7 +391,7 @@ section {
 
 article {
     display: flex;
-    width: 10rem;
+    width: 9rem;
     gap: 0.5rem;
 }
 
