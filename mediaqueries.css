@@ -170,3 +170,24 @@
         font-size: 4rem;
     }
 }
+
+/* Media queries for the report iframe */
+@media screen and (max-height: 850px) {
+    #report-iframe {
+        width: 960px;
+        height: 569px;
+    }
+}
+
+@media screen and (max-height: 650px) {
+    #report-iframe {
+        width: 720px;
+        height: 449px;
+    }
+}
+@media screen and (max-width: 500px) {
+    #report-iframe {
+        width: 720px;
+        height: 300px;
+    }
+}
