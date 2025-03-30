@@ -1,5 +1,5 @@
 /* Power BI Report Section */
-#pbi-report {
+#pdf-report {
     text-align: center;
     padding: 2rem;
     color: #d4d4d4; 
@@ -42,7 +42,9 @@
 }
 
 section {
-    padding: 10rem; 
+    padding: 5rem; 
+    padding-left: 10rem;
+    padding-right: 10rem;
     margin: auto;
     height: auto;
     font-size: 1.4rem;

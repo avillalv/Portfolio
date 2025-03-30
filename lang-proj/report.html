@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programming Trends Analysis</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="report.css">
+    <link rel="stylesheet" href="../mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Anthony Villalvazo-Cadena</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="../index.html#about">About</a></li>
+                <li><a href="../index.html#experience">Experience</a></li>
+                <li><a href="../index.html#projects">Projects</a></li>
+                <li><a href="../index.html#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Anthony Villalvazo-Cadena</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="../index.html#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="../index.html#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="../index.html#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="../index.html#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Power BI Report Section -->
+    <section id="pdf-report">
+        <h1 class="title">Programming Trends Analysis</h1>
+        <p class="section__text__p1">Explore the Presentation</p>
+        <div class="report-container">
+            <!-- Embed Google Slides Presentation -->
+            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQPDy9sO5p2z8aD1wit65e3Wutaqo64GEzPUhCyN9HGcj7C5iPf8RSGZpjOwx0z_MveJMtJexZ-UiSm/embed?start=false&loop=false&delayms=3000" 
+                    frameborder="0" 
+                    width="1280" 
+                    height="758" 
+                    allowfullscreen="true" 
+                    mozallowfullscreen="true" 
+                    webkitallowfullscreen="true"
+                    tabindex="-1">
+            </iframe>
+        </div>
+        <div class="btn-container">
+            <button class="btn btn-color-2" onclick="location.href='../index.html#projects'">Back to Projects</button>
+            <button class="btn btn-color-2" onclick="window.open('https://github.com/avillalv/IBM-Data-Analysis-Project', '_blank')"">GitHub</button>
+        </div>
+    </section>
+
+    <!-- Project Overview Section -->
+    <section id="project-overview">
+        <h2 class="title">Project Overview</h2>
+        <p>This project aims to uncover insights about programming languages, job trends, demographics, and databases in the IT industry. As technology continues to evolve, staying informed about current and emerging trends is crucial. The analysis leverages data from multiple sources, including job postings, training portals, and developer surveys, to understand developer preferences and the future direction of IT technologies.</p>
+        <p>Each module in this project represents a key step in transforming raw data into meaningful insights. The final presentation compiles these findings into a clear and compelling narrative, supported by visualizations and dashboards.</p>
+    </section>
+
+    <!-- Project Structure Section -->
+    <section id="project-structure">
+        <h2 class="title">Project Structure</h2>
+        <h3>Part 1: Data Collection</h3>
+        <ul>
+            <li>Collected data using APIs</li>
+            <li>Scraped web data</li>
+            <li>Retrieved data from databases</li>
+            <li>Imported CSV files</li>
+        </ul>
+        <br>
+        <h3>Part 2: Data Wrangling</h3>
+        <ul>
+            <li>Identified missing values</li>
+            <li>Addressed missing data</li>
+            <li>Found and removed duplicates</li>
+            <li>Normalized the dataset</li>
+            <li>Filtered and cleaned relevant data</li>
+        </ul>
+        <br>
+        <h3>Part 3: Exploratory Data Analysis</h3>
+        <ul>
+            <li>Analyzed data distribution</li>
+            <li>Identified outliers</li>
+            <li>Explored correlations between variables</li>
+        </ul>
+        <br>
+        <h3>Part 4: Data Visualization</h3>
+        <ul>
+            <li>Visualized data distribution</li>
+            <li>Explored relationships between variables</li>
+            <li>Compared data trends</li>
+            <li>Created composition charts</li>
+        </ul>
+        <br>
+        <h3>Part 5: Presentation of Findings</h3>
+        <ul>
+            <li>Compiled insights into a final presentation</li>
+            <li>Structured data story in a clear and compelling manner</li>
+            <li>Used PowerPoint to present findings with visuals</li>
+        </ul>
+    </section>
+
+    <!-- Data Sources Section -->
+    <section id="data-sources">
+        <h2 class="title">Data Sources</h2>
+        <p>Public datasets from job postings, training platforms, and surveys were collected using:</p>
+        <ul>
+            <li>CSV files</li>
+            <li>APIs</li>
+            <li>Web scraping</li>
+            <li>Database queries</li>
+        </ul>
+    </section>
+
+    <!-- Technologies Used Section -->
+    <section id="technologies-used">
+        <h2 class="title">Technologies Used</h2>
+        <ul>
+            <li>Python</li>
+            <li>Jupyter Notebook</li>
+            <li>Pandas, NumPy</li>
+            <li>Matplotlib, Seaborn</li>
+            <li>IBM Cognos Analytics</li>
+            <li>Microsoft Excel</li>
+            <li>APIs & Web Scraping Tools</li>
+            <li>PowerPoint (for final presentation)</li>
+        </ul>
+    </section>
+
+    <!-- How to Use Section -->
+    <section id="how-to-use">
+        <h2 class="title">How to Use</h2>
+        <ol>
+            <li>Clone the repository: <code>git clone &lt;repo_url&gt;</code></li>
+            <li>Install Jupyter Notebook: <code>pip install notebook</code></li>
+            <li>Install necessary Python libraries: <code>pip install pandas numpy matplotlib seaborn requests</code></li>
+            <li>Open Jupyter Notebook: <code>jupyter notebook</code></li>
+            <li>Review and execute each part to understand the data analysis process.</li>
+        </ol>
+    </section>
+
+    <!-- Final Output Section -->
+    <section id="final-output">
+        <h2 class="title">Final Output</h2>
+        <p>The final output of this project is a presentation that effectively communicates the findings derived from data analysis. The PowerPoint presentation summarizes key insights, supported by data visualizations and dashboards, providing valuable information on programming language trends, developer opinions, and IT job market dynamics.</p>
+    </section>
+
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="../index.html#about">About</a></li>
+                    <li><a href="../index.html#experience">Experience</a></li>
+                    <li><a href="../index.html#projects">Projects</a></li>
+                    <li><a href="../index.html#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Anthony Villalvazo-Cadena. All Rights Reserved.</p>
+    </footer>
+    <script src="../script.js"></script>
+</body>
+</html>
